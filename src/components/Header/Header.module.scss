@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+
+    .menu {
+      list-style-type: none;
+      padding-right: 20px;
+      border-right: 1px solid #EDEDED;
+      > li {
+        display: inline-block;
+
+        > a {
+          display: block;
+          font-size: 16pt;
+          color: #222222;
+          padding: 0 12px;
+          text-decoration: none;
+        }
+      }
+    }
+    .buttons {
+      display: flex;
+      align-items: center;
+      > button {
+        cursor: pointer;
+        border: none;
+        outline: none;
+        background-color: transparent;
+      }
+      .login-button {
+        font-size: 16pt;
+        color: #222222;
+        padding: 0 6px;
+      }
+      .sign-up-button {
+        font-size: 16pt;
+        color: #222222;
+        margin-left: 15px;
+        padding: 10px 8px;
+        border: 1px solid #E1E1E1;
+      }
+    }
+  }
+}
